@@ -1,8 +1,8 @@
-print("Insira seu nome completo: ")
+print("Olá! Seja bem-vindo à Biblioteca! Qual é o seu nome completo? ")
 fullName = gets.chomp
 firstName = fullName.split.first
 
-print("Insira a sua idade em anos: ")
+print("É um prazer te conhecer, #{firstName}! Para fazer o seu cadastro, também precisamos da sua idade. Quantos anos você tem? ")
 age = gets.chomp.to_i
 
-print("Seu nome completo é #{fullName} e você tem #{age} anos. Para facilitar, vamos te chamar apenas de #{firstName}.")
+print("Cadastro realizado com sucesso! Nome completo: #{fullName}, Idade: #{age} anos.")
